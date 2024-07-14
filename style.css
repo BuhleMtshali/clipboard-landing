@@ -27,13 +27,26 @@ body {
   .photo-img-container {
     flex-direction: column;
   }
+  .three-flex-container {
+    flex-direction: column;
+  }
+  .four-container {
+    flex-direction: column;
+  }
   .left-img img {
     width: 230px;
     height: auto;
     object-fit: cover;
     object-position: center;
-    width: 100%;
     left: 0;
+    width: 100%;
+  }
+  .devices-phone {
+    width: 100%; /* Ensures the image scales with the container */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover;
+    object-position: center;
+    margin-top: 20px;
   }
   .right-text {
     text-align: center;
@@ -54,6 +67,9 @@ header {
   object-fit: cover;
   background-color: #f7f7f9;
   background-blend-mode: multiply;
+}
+.logo-sign {
+  margin-top: 20px;
 }
 h1 {
   color: hsl(210, 10%, 33%);
@@ -122,21 +138,44 @@ button {
 .access-container {
   margin-top: 110px;
 }
-.access-container img {
-  width: 700px;
-  height: auto;
-  object-fit: cover;
-  object-position: center;
-  margin-top: 15px;
-}
+
 .three-flex-container {
   display: flex;
   justify-content: space-evenly;
   margin-top: 50px;
   align-content: center;
 }
+
+.three-flex-container img {
+  margin: 0;
+}
+
 .four-container {
   display: flex;
   justify-content: space-evenly;
   margin-top: 70px;
+}
+.devices-phone {
+  max-width: 100%; /* Ensures the image scales with the container */
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover;
+  object-position: center;
+}
+.one {
+  margin: 15px;
+}
+.d-bottoms {
+  margin: 0;
+}
+.blacklist {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.snippets {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.preview {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
