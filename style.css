@@ -36,6 +36,14 @@ h1 {
   font-weight: 600;
   margin-top: 0;
 }
+h2 {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+main {
+  margin-top: 100px;
+}
 header img {
   margin-top: 50px;
 }
@@ -43,6 +51,10 @@ header img {
   color: hsl(201, 11%, 66%);
   font-weight: 400;
   font-size: 18px;
+  margin: 0;
+}
+.buttons-container {
+  margin-top: 30px;
 }
 button {
   border-radius: 20px;
@@ -51,10 +63,13 @@ button {
   color: white;
   font-weight: 400;
   font-size: 16px;
+  margin: 0 8px;
 }
 .green-bg {
   background-color: hsl(171, 66%, 44%);
+  box-shadow: 2px 2px 2px 2px #b3f3e6;
 }
 .blue-bg {
   background-color: hsl(233, 100%, 69%);
+  box-shadow: 2px 2px 2px 2px #7f8cdd;
 }
