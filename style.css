@@ -135,3 +135,8 @@ button {
   margin-top: 50px;
   align-content: center;
 }
+.four-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+}
