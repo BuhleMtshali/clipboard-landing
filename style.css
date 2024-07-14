@@ -6,10 +6,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  header {
-    max-width: 100%;
-    background-image: url(img/bg-header-mobile.png);
-  }
   body {
     padding: 15px;
   }
@@ -122,4 +118,14 @@ button {
   text-align: left;
   position: relative;
   top: 15px;
+}
+.access-container {
+  margin-top: 110px;
+}
+.access-container img {
+  width: 700px;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 15px;
 }
